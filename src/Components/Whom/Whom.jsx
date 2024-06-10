@@ -5,7 +5,7 @@ import "./Whom.css";
 import WhomCards from "./WhomCards";
 const Whom = () => {
   return (
-    <div className="section">
+    <div className="section my-14">
       <div className="container">
         <div className="Whom1">
           <h2>
