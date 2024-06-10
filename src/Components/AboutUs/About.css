@@ -1,0 +1,73 @@
+.About{
+    margin-top: 2rem;
+    height: auto;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: whitesmoke;
+}
+.AboutHead{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins !important;
+}
+.AboutText{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px red solid; */
+}
+.AboutDetails1{
+    height: 100%;
+    width: 40%;
+    /* border: 1px blue solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.AboutDetails1>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.AboutData{
+    height: 100%;
+    width: 60%;
+    /* border: 2px yellow solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    padding: 1rem;
+}
+.AboutData>p{
+    /* font-size: 14px; */
+}
+@media only screen and (max-width: 800px){
+    .About{
+        height: auto;
+    }
+    .AboutText{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .AboutData{
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+        text-align: justify;
+        width: 100%;
+    }
+    .AboutDetails1{
+        width: 100%;
+    }
+}

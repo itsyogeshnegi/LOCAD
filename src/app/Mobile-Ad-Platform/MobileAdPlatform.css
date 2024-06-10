@@ -1,0 +1,81 @@
+.Mobile-Ad-Platform-Head {
+    height: 60px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Mobile-Ad-Platform-Head>h2{
+    font-family: Poppins !important;
+    font-size: 35px;
+    font-weight: 550;
+}
+
+.intro {
+    height: auto;
+    width: 100%;
+    /* border: red solid 2px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introVideo {
+    height: 300px;
+    width: 50%;
+    /* border: 2px blue solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos {
+    height: 90%;
+    width: 90%;
+    /* border: 2px red solid; */
+}
+
+.introText {
+    height: 300px;
+    width: 50%;
+    /* border: 2px blue solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 30px 0px 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mobileCards {
+    height: auto;
+    width: 100%;
+    /* border: 2px red solid; */
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .introVideo {
+        width: 100%;
+    }
+
+    .introText {
+        width: 100%;
+    }
+
+    .introVideo {
+        height: 200px;
+    }
+
+    .introText {
+        font-size: 15px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,81 @@
+.LocadGalaxyHead {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutGalaxy {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5% 10px 5%;
+    font-weight: 500;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.locadGalaxySS {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galaxyProduct {
+    height: auto;
+    width: 100%;
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.galaxyProductHead {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: whitesmoke;
+}
+
+.galaxyServices {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 10px;
+}
+.galaxyServices>h5 {
+    font-weight: 700;
+}
+
+.galaxyServicesBoxes {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 860px) {
+    .locadGalaxySS>img {
+        /* height: 100px; */
+        width: 100%;
+    }
+}

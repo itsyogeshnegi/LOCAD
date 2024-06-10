@@ -1,0 +1,17 @@
+.Contact-Us{
+    height: 500px;
+    width: 100%;
+    border: 2px red solid;
+}
+.Contact-Icons{
+    height: 100px;
+    width: 100%;
+    background-color: ghostwhite;
+    display: flex;
+}
+.contact-logo{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    border: white solid 2px;
+}

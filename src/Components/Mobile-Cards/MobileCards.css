@@ -1,0 +1,43 @@
+.Mobile-Cards{
+    height: 400px;
+    width: 250px;
+    /* border: 2px red solid; */
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    transition: 0.1s;
+}
+.Mobile-Cards:hover{
+    transform: scale(1.06);
+}
+.cardImage{
+    height: 40%;
+    width: 95%;
+    /* border: 1px black solid; */
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardImage>img{
+    height: 100%;
+    width: 100%;
+}
+.cardText{
+    height: 60%;
+    width: 95%;
+    /* border: 1px pink solid;  */
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* padding: 10px 0 10px 0; */
+}
+.cardText>p{
+    font-size: 14px;
+}

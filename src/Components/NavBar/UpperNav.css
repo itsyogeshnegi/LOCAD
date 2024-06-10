@@ -1,0 +1,46 @@
+.uperNavHead{
+    height: 25px;
+    width: 100%;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uperNavOptions{
+    height: 100%;
+    /* border: 2px red solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1px;
+    font-family: Work Sans !important;
+    color: white;
+}
+.uperNavOptions>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    margin-left: 5px;
+    color: white;
+    font-size: 13px;
+}
+.uperNavOptions>i{
+    margin-right: 2px;
+}
+@media only screen and (max-width: 800px){
+    .uperNavHead{
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        display: none;
+    }
+    .uperNavOptions{
+        font-size: 12px;
+    }
+    .uperNavOptions.add{
+        display: none;
+    }
+}

@@ -1,0 +1,34 @@
+.AboutCards{
+    max-height: auto;
+    width: 100%;
+    border: 1px red solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.texted{
+    height: 300px;
+    width: 50%;
+    border: 1px red solid;
+}
+.imagess{
+    height: 300px;
+    width: 50%;
+    border: 1px red solid;
+}
+
+@media only screen and (max-width: 800px){
+    .AboutCards{
+        max-height: auto;
+        width: 100%;
+        border: 1px red solid;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .texted{
+        width: 100%;
+    }
+    .imagess{
+        width: 100%;
+    }
+}

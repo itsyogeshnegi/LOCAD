@@ -1,0 +1,108 @@
+.pDOOH-Network-Head{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins !important;
+    font-size: 30px;
+    font-weight: 550;
+}
+.pDOOH-Network-Details{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.pDOOH-Network-Details>h5{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.Retail-Network{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    /* border: 2px red solid; */
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.RetailPartOne{
+    height: 100%;
+    width: 50%;
+    /* border: 2px blue solid; */
+}
+.retail-Head{
+    height: 15%;
+    width: 100%;
+    /* border: 2px orange solid; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.retails-details{
+    height: 80%;
+    width: 100%;
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    /* flex-wrap: wrap; */
+    text-align: justify;
+}
+.retails-details>b{
+    font-weight: 500;
+}
+.RetailPartTwo{
+    height: 100%;
+    width: 50%;
+    /* border: 2px green solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RetailPartTwo>img{
+    height: 80%;
+    width: 80%;
+}
+@media only screen and (max-width: 768px){
+    .pDOOH-Network-Head{
+        font-size: 19px;
+    }
+    .pDOOH-Network-Details>h5{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        /* border: 2px red solid; */
+        font-size: 15px;
+    }
+    .Retail-Network{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .RetailPartOne{
+        width: 100%;
+    }
+    .RetailPartTwo{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .RetailPartTwo>img{
+        height: 90%;
+        width: 90%;
+    }
+    .retails-details{
+        padding: 0 20px 0 20px;
+    }
+}

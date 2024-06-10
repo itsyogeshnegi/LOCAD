@@ -1,0 +1,40 @@
+.TotalCount{
+    margin-top: 2rem;
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.counts{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+.counts>i{
+    font-size: 60px;
+    margin: 2px;
+}
+.counts>span{
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+@media only screen and (max-width: 760px){
+.counts{
+    width: 50%;
+    font-size: 13px;
+}
+.counts>span{
+    font-size: 20px;
+}
+}

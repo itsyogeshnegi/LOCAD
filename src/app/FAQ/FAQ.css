@@ -1,0 +1,35 @@
+.FAQ{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family:Poppins !important ;
+    flex-direction: column;
+}
+
+.Heading-FAQ{
+    height: 100%;
+    width: 31%;
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border-bottom: 5px red solid ; */
+    margin-top: 1rem;
+}
+
+.FAQ-Topic{
+    height: auto;
+    width: 100%;
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

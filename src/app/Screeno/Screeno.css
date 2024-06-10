@@ -1,0 +1,151 @@
+.ScreenoHead {
+    height: 70px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ScreenoHead>h2{
+    font-family: Poppins !important;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.ScreenoVideo {
+    height: auto;
+    width: 100%;
+    /* border: 1px purple solid; */
+    display: flex;
+}
+
+.screenoYoutubeVideo {
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.screenoAboutUs {
+    height: 100%;
+    width: 50%;
+    /* border: 2px red solid; */
+}
+
+.screenoAboutUsHead {
+    height: 50px;
+    width: 100%;
+    /* border: 2px blue solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.screenoAboutUsHead>h3 {
+    font-weight: 700;
+    color: darkblue;
+}
+
+.screenoAboutUsText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.screenoAboutUsText>p {
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.screenoGif{
+    height: auto;
+    width: 100%;
+    /* border: 2px red solid; */
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.screenoGifHead{
+    height: auto;
+    width: 20%;
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenoGifMain{
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.KeyFeatures{
+    margin-top: 2rem;
+    height: 50px;
+    width: 100%;
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.KeyFeatures>h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ScreenoPlayerDownloads{
+    height: auto;
+    width: 100%;
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ScreenoPlayerHead{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ScreenoPlayerHead>h3{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 860px) {
+    .screenoYoutubeVideo {
+        width: 100%;
+    }
+    .screenoAboutUs {
+        width: 100%;
+    }
+    .ScreenoVideo {
+        display: flex;
+        flex-direction: column;
+    }
+    .screenoGifMain>img{
+        height: 60%;
+        width: 100%;
+    }
+    .ScreenoHead{
+        font-size: 10px;
+    }
+    .screenoYoutubeVideo{
+        height: 200px;
+    }
+    
+}

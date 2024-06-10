@@ -1,0 +1,149 @@
+.plano {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
+    /* border: 2px red solid; */
+}
+
+.planoHead {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plnao_about {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.plano_screen_shot {
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plano_screen_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    flex-direction: column;
+
+}
+
+.plano_screen_about>p {
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.planoAbout {
+    height: 50px;
+    width: 100%;
+    /* border: 2px blue solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.planoAbout>h3 {
+    font-weight: 700;
+    color: darkblue;
+
+}
+
+.planoFeatures {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.plano_box {
+    min-height: 180px;
+    width: 45%;
+    border: 1.5px black solid;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+
+.BenefitsAbout {
+    height: auto;
+    width: 100%;
+    padding: 10px 100px 10px 100px;
+    font-weight: 450;
+    text-align: justify;
+    /* border: 2px black solid; */
+    /* border-radius: 20px; */
+}
+
+.planoOtherSS {
+    height: auto;
+    width: 100%;
+    /* border: red solid 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.plano_box>ol {
+    font-size: 14px;
+}
+@media only screen and (max-width: 860px) {
+    .plnao_about {
+        flex-wrap: wrap;
+    }
+
+    .plano_screen_shot {
+        width: 100%;
+        height: 60%;
+
+    }
+
+    .plano_screen_shot>img {
+        width: 90%;
+    }
+
+    .plano_screen_about {
+        padding: 0px;
+    }
+
+    .plano_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .BenefitsAbout {
+        width: 100%;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .planoOtherSS {
+        display: none;
+    }
+
+}

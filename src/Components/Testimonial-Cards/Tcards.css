@@ -1,0 +1,52 @@
+.Tcards{
+    height: 100%;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+}
+.Tcards:hover{
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px; 
+}
+.TcardsLogo{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tcards-Commit{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    word-spacing: 1.4px;
+}
+.Tcards-Commit>p{
+    font-size: 14px;
+}
+.Tcards-img{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tcards-name{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cardTop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}

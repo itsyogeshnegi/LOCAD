@@ -1,0 +1,17 @@
+.Whom{
+    margin-top: 6rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px red solid */
+    /* background-color: whitesmoke; */
+}
+.Whom1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins !important;
+    /* font-size: 40px; */
+    /* font-weight: 550; */
+    /* border: 1px red solid; */
+}

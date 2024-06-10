@@ -1,0 +1,29 @@
+.Testimonial-Main{
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+    
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+.testHead{
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    /* border: 2px red solid; */
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* font-size: 40px; */
+    /* font-weight: 550; */
+}
+
+.testHead>h2{
+    font-family: Poppins !important;
+}

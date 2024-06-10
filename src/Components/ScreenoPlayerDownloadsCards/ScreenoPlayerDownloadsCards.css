@@ -1,0 +1,63 @@
+.ScreenoPlayerDownloadsCards{
+    height: 300px;
+    width: 250px;
+    /* border: 2px solid red; */
+    margin: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ScreenoPlayerPhoto{
+ height: auto;
+ width: 40%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* border: 2px blue solid; */
+}
+
+.ScreenoPlayerPlayer{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+    text-align: center;
+}
+.ScreenoPlayerVersion{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+    text-align: center;
+}
+.ScreenoPlayerVersion1{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+    text-align: center;
+}
+.ScreenoPlayerDownload{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+    text-align: center;
+}
+button{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 13px;
+}

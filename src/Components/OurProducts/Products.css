@@ -1,0 +1,28 @@
+.mainproducthead{
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    /* border: 2px red solid; */
+}
+.productTopic{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px blue solid; */
+}
+.productTopic>h2{
+    font-family: Poppins !important;
+    /* font-size: 20px; */
+    /* font-weight: 550; */
+}
+.productsItems{
+    margin-top: 1rem;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,90 @@
+.locaudit-pro{
+    height: 60px;
+    width: 100%;
+    text-align: center; 
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locaudit_pro_about{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
+    /* border: 2px red solid; */
+}
+.Platform-Pro{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pro_dashboard{
+    height: 400px;
+    width: 100%;
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro_dashboard img{
+    height: 80%;
+    width: 45%;
+    padding: 20px;
+    /* border: 2px black solid; */
+}
+.pro_App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+}
+.proAppSS{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px red solid; */
+    margin-top: 10px;
+}
+.proAppSS img{
+    height: 80%;
+    margin: 15px;
+}
+@media only screen and (max-width: 800px){
+    /* .pro_App {
+            height: 1000px;
+        } */
+    .locaudit_pro_about{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        flex-direction: column;
+        padding: 10px 30px 10px 30px;
+        /* border: 2px red solid; */
+    }
+    .pro_dashboard{
+        flex-direction: column;
+    }
+    .pro_dashboard img{
+        height: 30%;
+        width: 100%;
+        padding: 10px 30px 10px 30px;
+        border: none;
+    }
+}

@@ -1,0 +1,26 @@
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    background-color: royalblue;
+    /* color: #FFF; */
+    border-radius: 100%;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.whats-app>i:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+.my-float {
+    /* margin-top: 16px; */
+}

@@ -1,0 +1,19 @@
+.GalaxyBox {
+    height: 20rem;
+    width: 20rem;
+    /* border: 2px red solid; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0px 1% 0px 1%;
+    background-color: whitesmoke;
+    transition: 0.8;
+    box-shadow: -1px 3px 17px -4px rgba(0, 0, 0, 0.60);
+}
+
+.GalaxyBox:hover {
+    background-color: #252525;
+    color: white;
+}
