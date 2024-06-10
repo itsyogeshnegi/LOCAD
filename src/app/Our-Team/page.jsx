@@ -61,7 +61,7 @@ const page = () => {
               </a>
             }
           />
-          <TeamCards
+          {/* <TeamCards
             img={"/team/sandeep.jpg"}
             name={"SANDEEP DODHAAN"}
             post={"Cheif Revenue Officer"}
@@ -81,7 +81,7 @@ const page = () => {
                 </svg>
               </a>
             }
-          />
+          /> */}
           <TeamCards
             img={"/team/Pradeep pathak.jpeg"}
             name={"PRADEEP KR. PATHAK"}
