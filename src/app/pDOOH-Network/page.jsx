@@ -110,9 +110,8 @@ const page = () => {
           </div>
         </div>
         <div className="RetailPartTwo">
-          {/* <iframe src="/video/Galleria.mp4" className="h-64 w-96"></iframe> */}
           <video autoPlay loop muted controls style={{ width: "500px", height: "200px" }}>
-            <source src="/video/Galleria.mp4" type="video/mp4" />
+            <source src="https://s3.amazonaws.com/locad.ftp.server/locad_public_images/video/Galleria.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
