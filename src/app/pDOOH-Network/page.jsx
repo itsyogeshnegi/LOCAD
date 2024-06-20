@@ -73,11 +73,10 @@ const page = () => {
               alignItems: "center",
             }}>
             <p>
-              100+ Locations with 500+ Screens We create an impactful platform
-              for all brands to advertise & create brand awareness at pre
-              corporate and co-working space network through multiple screens
-              accessed by 100,000+ eyeballs per day from corporate,
-              start ups, others.
+              With 500+ Screens we create an impactful platform for all brands
+              to advertise & create brand awareness at pre corporate and
+              co-working space network through multiple screens accessed by
+              15mn+ eyeballs per day from corporate, startups, others.
             </p>
           </div>
         </div>
@@ -110,8 +109,16 @@ const page = () => {
           </div>
         </div>
         <div className="RetailPartTwo">
-          <video autoPlay loop muted controls style={{ width: "500px", height: "200px" }}>
-            <source src="https://s3.amazonaws.com/locad.ftp.server/locad_public_images/video/Galleria.mp4" type="video/mp4" />
+          <video
+            autoPlay
+            loop
+            muted
+            controls
+            style={{ width: "500px", height: "200px" }}>
+            <source
+              src="https://s3.amazonaws.com/locad.ftp.server/locad_public_images/video/Galleria.mp4"
+              type="video/mp4"
+            />
           </video>
         </div>
       </div>
@@ -132,14 +139,12 @@ const page = () => {
             }}>
             <b style={{ fontWeight: "600" }}>Retail Network-Electronics:</b>
             <p>
-              23 locations with 2100+ screens with an average footfall of 60000
-              to 2,50,000/ per day across the entire network, we create a
-              powerful marketing strategy with In store digital wall advertising
-              and branding at the retail network across all their 82 stores
-              covering multiple locations like Mumbai, Pune, Gujarat, Delhi,
-              Noida, Gurugram.
+              2100+ screens with an average footfall of 60000 to 2,50,000 per
+              day across the entire network, we create a powerful marketing
+              strategy with In store digital wall advertising and branding at
+              the retail network across all their 82 stores covering multiple
+              locations like Mumbai, Pune, Gujarat, Delhi, Noida, Gurugram.
             </p>
-            {/* <p>Audience Profile: Men-40% Women-60%, Age- 15 yrs to 60 yrs</p> */}
             <br />
           </div>
         </div>
@@ -169,9 +174,8 @@ const page = () => {
             </p>
             <br />
             <p>
-              Metro and Railways : 950+ screens connecting the major railway
-              stations and Metro stations of India. We have presence across
-              Delhi NCR, Mumbai, Hyderabad etc.
+              Metro and Railways: 1000+ screens connecting the major railway
+              stations and Metro stations of India. We have presence Pan India.
             </p>
           </div>
         </div>
@@ -194,14 +198,11 @@ const page = () => {
               flexDirection: "column",
               alignItems: "center",
             }}>
-            <b style={{ fontWeight: "600" }}>Retail Network-Electronics:</b>
+            {/* <b style={{ fontWeight: "600" }}>Retail Network-Electronics:</b> */}
             <p>
-              23 locations with 2100+ screens with an average footfall of 60000
-              to 2,50,000/ per day across the entire network, we create a
-              powerful marketing strategy with In store digital wall advertising
-              and branding at the retail network across all their 82 stores
-              covering multiple locations like Mumbai, Pune, Gujarat, Delhi,
-              Noida, Gurugram.
+              Covering the premium Gyms like Cultfit, Anytime fitness etc with
+              Pan India presence with 1000+ screens with an average footfall of
+              6000 to 12000 across the single branch.
             </p>
             {/* <p>Audience Profile: Men-40% Women-60%, Age- 15 yrs to 60 yrs</p> */}
             <br />
@@ -227,8 +228,11 @@ const page = () => {
               alignItems: "center",
             }}>
             <p>
-              1000+ Screens across premium
-              <br /> residential condominiums Pan India
+              We cover Residential society network with around 20000+ Screens
+              with presence across cities like Delhi NCR, Mumbai, Pune,
+              Bangalore, Hyderabad etc. Different media options available like
+              static frame posters inside lifts and Digital Screens in lift
+              lobbies.
             </p>
           </div>
         </div>
@@ -251,14 +255,11 @@ const page = () => {
               flexDirection: "column",
               alignItems: "center",
             }}>
-            <b style={{ fontWeight: "600" }}>Retail Network-Electronics:</b>
             <p>
-              23 locations with 2100+ screens with an average footfall of 60000
-              to 2,50,000/ per day across the entire network, we create a
-              powerful marketing strategy with In store digital wall advertising
-              and branding at the retail network across all their 82 stores
-              covering multiple locations like Mumbai, Pune, Gujarat, Delhi,
-              Noida, Gurugram.
+              Currently live with more than 100+ locations Pan India with
+              advertising options on EV charging machines. We have both static
+              and digital options available across most premium hotels and
+              resorts across India.
             </p>
             {/* <p>Audience Profile: Men-40% Women-60%, Age-15 yrs to 60 yrs</p> */}
             <br />
@@ -283,14 +284,14 @@ const page = () => {
               flexDirection: "column",
               alignItems: "center",
             }}>
-            <b style={{ fontWeight: "600" }}>
+            {/* <b style={{ fontWeight: "600" }}>
               Co-working space: 16 Locations with 400 Screens
-            </b>
+            </b> */}
             <p>
-              We create an impactful platform for all brands to advertise &
-              create brand awareness at Co working space network through
-              multiple screens accessed by 6000+ eyeballs per day from
-              corporate, start ups, others.
+              This is an unique network which covers smaller towns and cities
+              across India. With 25000+ ATM machines live across all small tier
+              1, 2, 3, 4 towns and cities of India. The advertising space
+              available on the screens of ATM.
             </p>
             <br />
             {/* <b>Location advantage</b> */}
