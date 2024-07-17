@@ -77,7 +77,11 @@ const Clients = ({ heading, reverse }) => {
             <img height={100} width={100} src="/clients/rapport.png" />
           </div>
           <div className="clientLogo">
-            <img height={100} width={100} src="/clients/Richardson_srilanka.png" />
+            <img
+              height={100}
+              width={100}
+              src="/clients/Richardson_srilanka.png"
+            />
           </div>
           <div className="clientLogo">
             <img height={100} width={100} src="/clients/resolution.png" />
@@ -87,6 +91,15 @@ const Clients = ({ heading, reverse }) => {
           </div>
           <div className="clientLogo">
             <img height={100} width={100} src="/clients/IMBV.jpg" />
+          </div>
+          <div className="clientLogo">
+            <img height={100} width={100} src="/clients/zoho.webp" />
+          </div>
+          <div className="clientLogo">
+            <img height={100} width={100} src="/clients/swiggy.jpg" />
+          </div>
+          <div className="clientLogo">
+            <img height={100} width={100} src="/cc/delhiMall.jpg" />
           </div>
           <div className="clientLogo">
             <img height={100} width={100} src="/clients/zeeMedia.jpeg" />
