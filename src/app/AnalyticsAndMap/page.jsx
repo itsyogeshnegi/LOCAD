@@ -174,7 +174,7 @@ const Page = () => {
       <div className="AnalyticsAndMap_Head">
         <h2>
           {" "}
-          <span style={{ color: "red" }}>Live</span> Analytics & Map
+          <span style={{ color: "red" }}>Live</span> Platform Analytics
         </h2>
       </div>
 
