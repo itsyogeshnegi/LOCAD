@@ -17,14 +17,14 @@ const page = () => {
       <div className="about-content">
         <div className="content">
           <div className="contentHead">
-            <h2>{"Hello! It's Nice To See You Here!"}</h2>
+            <p>{"We are a Singapore & Delhi based Media Tech Company where we love to build innovative products and solutions for Monitoring, OOH and pDOOH advertising industry."}</p>
           </div>
           <div className="contentBody">
             <p>
-              {`LOCAD's integrated AI platform and IoT solutions for the OOH and other industry verticals empower brands to engage with the right audiences at the optimal time, location, and context. We offer a comprehensive, one-stop solution for all your advertising and monitoring needs.`}
+              {`LOCAD's integrated AI platform and IoT solutions for the OOH and other industry verticals empower brands to engage with the right audiences at the optimal time, location, and context. We offer a comprehensive, one-stop solution for all your advertising, marketing and monitoring needs.`}
             </p>
             <p>
-              {`Our Offerings Our diverse range of products and services caters to a variety of clients, including:`}
+              {`Our diverse range of products and services caters to a variety of clients, including:`}
             </p>
               Brands:
               <div className="text-start">
