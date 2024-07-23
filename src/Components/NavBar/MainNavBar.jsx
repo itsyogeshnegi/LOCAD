@@ -48,7 +48,6 @@ const MainNavBar = () => {
         <Navbar.Collapse id="navbar-nav justify-content-center">
           <Nav className="ml-auto">
           <Nav.Link href="/AboutPage">About</Nav.Link>
-            <Nav.Link href="/pDOOH-Network">pDOOH Network</Nav.Link>
             <NavDropdown
               title="Products"
               id="basic-nav-dropdown"
@@ -72,6 +71,7 @@ const MainNavBar = () => {
                 <p className="font-bold">LOCAD GALAXY</p>
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/pDOOH-Network">pDOOH Network</Nav.Link>
             <Nav.Link href="/Our-Team">Our Team</Nav.Link>
             <Nav.Link href="/AnalyticsAndMap">Analytics</Nav.Link>
             <NavDropdown

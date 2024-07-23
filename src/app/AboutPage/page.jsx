@@ -53,7 +53,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      {/* <div className="h-64 w-full flex justify-center items-center"> */}
+      {/* <div className="h-64 w-full flex justify-center items-center border-2 border-black"> */}
         {/* <Clients heading={"Our Clients"} /> */}
         {/* <Clients reverse /> */}
       {/* </div> */}
