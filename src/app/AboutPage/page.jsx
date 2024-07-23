@@ -5,6 +5,8 @@ import "./AboutPage.css";
 import UpperNav from "@/Components/NavBar/UpperNav";
 import MainNavBar from "@/Components/NavBar/MainNavBar";
 import Link from "next/link";
+import Footer from "@/Components/Footer/Footer";
+import Clients from "@/Components/Clients/Clients";
 const page = () => {
   return (
     <>
@@ -51,6 +53,10 @@ const page = () => {
           </div>
         </div>
       </div>
+      {/* <div className="h-64 w-full flex justify-center items-center"> */}
+        {/* <Clients heading={"Our Clients"} /> */}
+        {/* <Clients reverse /> */}
+      {/* </div> */}
       <div>
         <section>
           <div class="container-fluid pt-0 pb-0">
@@ -65,6 +71,7 @@ const page = () => {
           </div>
         </section>
       </div>
+      <Footer/>
     </>
   );
 };
