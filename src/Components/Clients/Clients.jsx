@@ -77,6 +77,9 @@ const Clients = ({ heading, reverse }) => {
             <img height={100} width={100} src="/clients/rapport.png" />
           </div>
           <div className="clientLogo">
+            <img height={100} width={100} src="/clients/Dentsu.png" />
+          </div>
+          <div className="clientLogo">
             <img
               height={100}
               width={100}
