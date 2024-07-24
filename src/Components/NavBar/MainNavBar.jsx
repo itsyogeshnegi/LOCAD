@@ -37,9 +37,7 @@ const MainNavBar = () => {
   return (
     <>
       <Navbar bg="light" variant="light" expand="lg" className="px-4 xl:px-14">
-        <Navbar.Brand
-          className="col-xl-2 col-lg-2"
-          >
+        <Navbar.Brand className="col-xl-2 col-lg-2">
           <Link href="/">
             <Image src="/LOCAD.png" height={40} width={120} alt="logo" />
           </Link>
@@ -47,7 +45,7 @@ const MainNavBar = () => {
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav justify-content-center">
           <Nav className="ml-auto">
-          <Nav.Link href="/AboutPage">About</Nav.Link>
+            <Nav.Link href="/AboutPage">About</Nav.Link>
             <NavDropdown
               title="Products"
               id="basic-nav-dropdown"
@@ -59,7 +57,7 @@ const MainNavBar = () => {
                 <p className="font-bold">PLANO</p>
               </NavDropdown.Item>
               <NavDropdown.Item href="/Locaudit">
-                 <p className="font-bold">LOCAUDIT</p>
+                <p className="font-bold">LOCAUDIT</p>
               </NavDropdown.Item>
               <NavDropdown.Item href="/Locaudit-Pro">
                 <p className="font-bold">LOCAUDIT-PRO</p>
@@ -71,9 +69,24 @@ const MainNavBar = () => {
                 <p className="font-bold">LOCAD GALAXY</p>
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/pDOOH-Network">pDOOH Network</Nav.Link>
-            <Nav.Link href="/Our-Team">Our Team</Nav.Link>
-            <Nav.Link href="/AnalyticsAndMap">Analytics</Nav.Link>
+            <NavDropdown
+              title="Services"
+              id="basic-nav-dropdown"
+              style={{ color: "black" }}>
+              <NavDropdown.Item href="/pDOOH-Network">
+                <p className="font-bold">pDOOH Network</p>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/TransitMedia">
+                <p className="font-bold">Transit Media</p>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/Campaigns">
+                <p className="font-bold">
+                  Campaign Measurement &
+                  <br />
+                   Attribution
+                </p>
+              </NavDropdown.Item>
+            </NavDropdown>
             <NavDropdown
               title="Portfolio"
               id="basic-nav-dropdown"
@@ -82,6 +95,8 @@ const MainNavBar = () => {
                 <b className="font-bold">DMGV.in</b>
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/AnalyticsAndMap">Analytics</Nav.Link>
+            <Nav.Link href="/Our-Team">Our Team</Nav.Link>
             <Nav.Link href="/ContactUsPage">Contact</Nav.Link>
             {/* <Nav.Link href="/FAQ">FAQ</Nav.Link> */}
           </Nav>

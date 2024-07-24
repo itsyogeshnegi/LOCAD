@@ -26,20 +26,6 @@ const HomePage = () => {
     }, 2000);
   }, []);
   return (
-    <>
-      {loading ? (
-        <div
-          style={{
-            height: "100vh",
-            width: "100%",
-            backgroundColor: "smokewhite",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}>
-          <HashLoader color="red" loading={loading} size={100} />
-        </div>
-      ) : (
         <>
           <ContactLogo/>
           <UpperNav />
@@ -54,8 +40,6 @@ const HomePage = () => {
           <Testimonial />
           <Footer />
         </>
-      )}
-    </>
   );
 };
 

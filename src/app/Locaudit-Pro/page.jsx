@@ -47,7 +47,7 @@ const page = () => {
           <img src="/proApp2.jpg" />
         </div>
       </div>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 };
