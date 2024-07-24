@@ -3,8 +3,49 @@ import Footer from "@/Components/Footer/Footer";
 import MainNavBar from "@/Components/NavBar/MainNavBar";
 import UpperNav from "@/Components/NavBar/UpperNav";
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const page = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 6000,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+    accessibility: false,
+    cssEase: "linear",
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       <UpperNav />
@@ -26,30 +67,53 @@ const page = () => {
           optimizable.`}
         </p>
       </div>
+      <div className="p-5 flex justify-center items-center flex-wrap gap-5">
+        <img src="/transit/cab4.jpg" className="h-56" />
+        <img src="/transit/bus.jpg" className="h-56" />
+        <img src="/transit/auto1.jpg" className="h-56" />
+      </div>
       <div className="text-center text-2xl font-semibold">
         <p>Why Choose Our Transit Advertising Platform?</p>
       </div>
       <div className="flex justify-center items-center w-full">
-      <div className="flex flex-col  ">
-        <li className="text-start">
-          <span className="font-semibold">Innovation:</span> Stay ahead of the
-          competition with our innovative tracking and monitoring technology.
-        </li>
-        <li className="text-start">
-          <span className="font-semibold">Efficiency:</span> Optimize your
-          campaigns with real-time data and actionable insights.
-        </li>
-        <li className="text-start">
-          <span className="font-semibold">Transparency:</span> Enjoy complete
-          transparency with detailed, easy-to-understand reports.
-        </li>
-        <li className="text-start">
-          <span className="font-semibold">Support:</span> Benefit from our
-          dedicated support team, ready to assist you at every step.
-        </li>
+        <div className="flex flex-col  ">
+          <li className="text-start">
+            <span className="font-semibold">Innovation:</span> Stay ahead of the
+            competition with our innovative tracking and monitoring technology.
+          </li>
+          <li className="text-start">
+            <span className="font-semibold">Efficiency:</span> Optimize your
+            campaigns with real-time data and actionable insights.
+          </li>
+          <li className="text-start">
+            <span className="font-semibold">Transparency:</span> Enjoy complete
+            transparency with detailed, easy-to-understand reports.
+          </li>
+          <li className="text-start">
+            <span className="font-semibold">Support:</span> Benefit from our
+            dedicated support team, ready to assist you at every step.
+          </li>
+        </div>
       </div>
+      <div className="p-5">
+        <Slider {...settings} className="mx-4">
+          <img src="/transit/auto1.jfif" className="h-56 mx-4" />
+          <img src="/transit/bus2.jpg" className="h-56 mx-4" />
+          <img src="/transit/cab1.jfif" className="h-56 mx-4" />
+          <img src="/transit/auto5.jpg" className="h-56 mx-4" />
+          <img src="/transit/cab3.jfif" className="h-56 mx-4" />
+          <img src="/transit/bus3.jfif" className="h-56 mx-4" />
+          <img src="/transit/auto2.jfif" className="h-56 mx-4" />
+          <img src="/transit/cab4.jpg" className="h-56 mx-4" />
+          <img src="/transit/bus.jfif" className="h-56 mx-4" />
+          <img src="/transit/auto3.jfif" className="h-56 mx-4" />
+          <img src="/transit/bus4.jfif" className="h-56 mx-4" />
+          <img src="/transit/auto4.jfif" className="h-56 mx-4" />
+          <img src="/transit/auto4.jfif" className="h-56 mx-4" />
+          <img src="/transit/auto5.jpg" className="h-56 mx-4" />
+          <img src="/transit/bus2.jpg" className="h-56 mx-4" />
+        </Slider>
       </div>
-
       <div className="flex flex-col text-center items-center w-full justify-center px-5 mt-5">
         <p className="text-3xl font-bold">Key Features</p>
         <p className="text-start">
@@ -100,7 +164,7 @@ const page = () => {
           engagement and achieve your marketing goals with precision and ease.`}
         </p>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
