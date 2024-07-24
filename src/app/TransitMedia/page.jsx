@@ -56,7 +56,7 @@ const page = () => {
         </p>
         <h1>Transit Media</h1>
       </div>
-      <div className="px-10 py-1">
+      <div className="p-4 py-1">
         <p className="text-justify">
           {`
           Introducing our cutting-edge Transit Advertising Platform, designed to
@@ -97,24 +97,24 @@ const page = () => {
       </div>
       <div className="p-5">
         <Slider {...settings} className="mx-4">
-          <img src="/transit/auto1.jfif" className="h-56 mx-4" />
-          <img src="/transit/bus2.jpg" className="h-56 mx-4" />
-          <img src="/transit/cab1.jfif" className="h-56 mx-4" />
-          <img src="/transit/auto5.jpg" className="h-56 mx-4" />
-          <img src="/transit/cab3.jfif" className="h-56 mx-4" />
-          <img src="/transit/bus3.jfif" className="h-56 mx-4" />
-          <img src="/transit/auto2.jfif" className="h-56 mx-4" />
-          <img src="/transit/cab4.jpg" className="h-56 mx-4" />
-          <img src="/transit/bus.jfif" className="h-56 mx-4" />
-          <img src="/transit/auto3.jfif" className="h-56 mx-4" />
-          <img src="/transit/bus4.jfif" className="h-56 mx-4" />
-          <img src="/transit/auto4.jfif" className="h-56 mx-4" />
-          <img src="/transit/auto4.jfif" className="h-56 mx-4" />
-          <img src="/transit/auto5.jpg" className="h-56 mx-4" />
-          <img src="/transit/bus2.jpg" className="h-56 mx-4" />
+          <img src="/transit/auto1.jfif" className="h-56 p-4" />
+          <img src="/transit/bus2.jpg" className="h-56 p-4" />
+          <img src="/transit/cab1.jfif" className="h-56 p-4" />
+          <img src="/transit/auto5.jpg" className="h-56 p-4" />
+          <img src="/transit/cab3.jfif" className="h-56 p-4" />
+          <img src="/transit/bus3.jfif" className="h-56 p-4" />
+          <img src="/transit/auto2.jfif" className="h-56 p-4" />
+          <img src="/transit/cab4.jpg" className="h-56 p-4" />
+          <img src="/transit/bus.jfif" className="h-56 p-4" />
+          <img src="/transit/auto3.jfif" className="h-56 p-4" />
+          <img src="/transit/bus4.jfif" className="h-56 p-4" />
+          <img src="/transit/auto4.jfif" className="h-56 p-4" />
+          <img src="/transit/auto4.jfif" className="h-56 p-4" />
+          <img src="/transit/auto5.jpg" className="h-56 p-4" />
+          <img src="/transit/bus2.jpg" className="h-56 p-4" />
         </Slider>
       </div>
-      <div className="flex flex-col text-center items-center w-full justify-center px-5 mt-5">
+      <div className="flex flex-col text-center items-center w-full justify-center p-4mt-5">
         <p className="text-3xl font-bold">Key Features</p>
         <p className="text-start">
           <span className="font-semibold">1. Advanced</span> Tracking
