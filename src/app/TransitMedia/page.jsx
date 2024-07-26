@@ -95,7 +95,7 @@ const page = () => {
           </li>
         </div>
       </div>
-      <div className="p-5">
+      <div className="px-5">
         <Slider {...settings} className="mx-4">
           <img src="/transit/auto1.jfif" className="h-56 p-4" />
           <img src="/transit/bus2.jpg" className="h-56 p-4" />
@@ -114,7 +114,7 @@ const page = () => {
           <img src="/transit/bus2.jpg" className="h-56 p-4" />
         </Slider>
       </div>
-      <div className="flex flex-col text-center items-center w-full justify-center p-5 mt-5">
+      <div className="flex flex-col text-center items-center w-full justify-center px-5 mt-5">
         <p className="text-3xl font-bold">Key Features</p>
         <p className="text-start">
           <span className="font-semibold">1. Advanced</span> Tracking
