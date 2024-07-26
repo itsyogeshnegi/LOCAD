@@ -19,7 +19,7 @@ const page = () => {
     cssEase: "linear",
     accessibility: false,
     cssEase: "linear",
-    pauseOnHover: true,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -114,7 +114,7 @@ const page = () => {
           <img src="/transit/bus2.jpg" className="h-56 p-4" />
         </Slider>
       </div>
-      <div className="flex flex-col text-center items-center w-full justify-center p-4mt-5">
+      <div className="flex flex-col text-center items-center w-full justify-center p-5 mt-5">
         <p className="text-3xl font-bold">Key Features</p>
         <p className="text-start">
           <span className="font-semibold">1. Advanced</span> Tracking
