@@ -8,6 +8,7 @@ import axios from "axios";
 import AnalyticsMap from "@/Components/AnalyticsMap/AnalyticsMap";
 import { Line, Bar } from "react-chartjs-2";
 import { Chart as Chartjs } from "chart.js/auto";
+import Footer from "@/Components/Footer/Footer";
 const Page = () => {
   const [audit, setAudit] = useState([]);
   const [screeno, setScreeno] = useState([]);
@@ -174,7 +175,7 @@ const Page = () => {
       <div className="AnalyticsAndMap_Head">
         <h2>
           {" "}
-          <span style={{ color: "red" }}>Live</span> Analytics & Map
+          <span style={{ color: "red" }}>Live</span> Platform Analytics
         </h2>
       </div>
 
@@ -289,6 +290,7 @@ const Page = () => {
           <AnalyticsMap />
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

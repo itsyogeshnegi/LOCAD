@@ -4,6 +4,7 @@ import UpperNav from "@/Components/NavBar/UpperNav";
 import MainNavBar from "@/Components/NavBar/MainNavBar";
 import GalaxyBox from "@/Components/GalaxyBox/GalaxyBox";
 import ServicesBox from "@/Components/GalaxyServicesBox/ServicesBox";
+import Footer from "@/Components/Footer/Footer";
 const page = () => {
   return (
     <>
@@ -98,6 +99,7 @@ const page = () => {
         />
         {/* <ServicesBox animatedIcons={"icons/play.png"} /> */}
       </div>
+      <Footer/>
     </>
   );
 };

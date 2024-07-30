@@ -137,6 +137,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
+                
               </div>
               <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
                 <div className="footer-widget">
@@ -275,10 +276,18 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
+                <div className="mt-5">
+                      <img src="/assets/mg.png" className="h-20" />
+                    <div className="flex gap-2 mt-3">
+                      <img src="/assets/msg.png" className="h-20" />
+                      <img src="/assets/seal.jpg" className="h-20" />
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
         </div>
+        <div className="container"></div>
         <div className="copyright-area">
           <div className="container">
             <div className="row">
