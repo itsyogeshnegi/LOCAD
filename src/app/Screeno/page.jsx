@@ -14,11 +14,11 @@ const page = () => {
       <MainNavBar />
 
       <div className="ScreenoHead">
-        <h2>
+        <h3>
           {" "}
           <span style={{ color: "darkblue" }}>Programmatic</span>{" "}
           <span style={{ color: "red" }}>DOOH Network & CMS</span>
-        </h2>
+        </h3>
       </div>
 
       <div className="ScreenoVideo">

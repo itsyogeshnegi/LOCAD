@@ -42,7 +42,7 @@ const page = () => {
       <div className="pro_App">
         <h4>Locaudit Pro App</h4>
         <div className="proAppSS">
-          <img src="/proApp1.jpg" />
+          <img src="/proApp1.jpg"  />
           <img src="/proApp.jpg" />
           <img src="/proApp2.jpg" />
         </div>

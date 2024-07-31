@@ -108,57 +108,6 @@ const page = () => {
             </li>
           </ol>
         </div>
-        {/* <div className="plano_box">
-          <ol start={1}>
-            <p style={{ fontWeight: "700" }}>
-              Collaboration and Approval Workflows:
-            </p>
-            <li>
-              Collaborative workspace for team members to collaborate on media
-              plans.
-            </li>
-            <li>
-              Role-based access control to manage permissions and approvals.
-            </li>
-            <li>
-              Commenting and annotation features for seamless communication.
-            </li>
-          </ol>
-        </div>
-        <div className="plano_box">
-          <ol start={1}>
-            <p style={{ fontWeight: "700" }}>
-              Performance Tracking and Reporting:
-            </p>
-            <li>
-              Comprehensive analytics dashboard to monitor campaign performance
-              in real-time.
-            </li>
-            <li>
-              Customizable reports with key metrics such as impressions, clicks,
-              conversions etc.
-            </li>
-            <li>
-              Integration with analytics platforms for holistic campaign
-              measurement.
-            </li>
-          </ol>
-        </div>
-        <div className="plano_box">
-          <ol start={1}>
-            <p style={{ fontWeight: "700" }}>
-              Integration and API: (Being Added)
-            </p>
-            <li>
-              USeamless integration with ad servers, DSPs, and other advertising
-              platforms.
-            </li>
-            <li>API access for integrating with existing tools and systems.</li>
-            <li>
-              Compatibility with popular CRM and marketing automation platforms.
-            </li>
-          </ol>
-        </div> */}
       </div>
       <div className="planoOtherSS">
         <img
@@ -179,51 +128,51 @@ const page = () => {
           width: "100%",
           fontWeight: "900",
         }}>
-        <h3>Benefits:</h3>
+        <h3 className="font-bold">Benefits</h3>
       </div>
       <div className="w-full px-2 justify-center items-center flex">
-        <ol start={1}>
-          <li>
-          Efficiency:<br/>
+        <ul className="px-3 ">
+          <li className="">
+          <span className="font-bold">Efficiency:</span><br/>
           Time-Saving: Automated processes reduce the time required for inventory management and campaign planning.<br/>
           Reduced Errors: Minimize human errors with automated data entry and management.
 
           </li>
           <br/>
           <li>
-          Scalability:<br/>
+          <span className="font-bold">Scalability:</span><br/>
           Flexible: Easily scalable to manage an increasing number of sites and campaigns.<br/>
           Adaptable: Suitable for small vendors with a few sites to large vendors managing thousands of locations.
 
           </li>
           <br/>
           <li>
-          Improved Decision Making:<br/>
+          <span className="font-bold">Improved Decision Making:</span><br/>
           Data-Driven Insights: Access comprehensive data to make informed decisions.<br/>
           Performance Tracking: Continuously monitor and optimize campaigns with detailed reporting.
 
           </li>
           <br/>
           <li>
-          Enhanced Client Satisfaction:<br/>
+          <span className="font-bold">Enhanced Client Satisfaction:</span><br/>
           Transparency: Clients can view available inventory and campaign progress, improving trust and satisfaction.<br/>
           Responsive Service: Faster response times due to streamlined processes and real-time updates.
 
           </li>
           <br/>
           <li>
-          Use Cases:<br/>
+          <span className="font-bold">Use Cases:</span><br/>
           Local OOH Vendors: Simplify the management of a few sites within a city or region.<br/>
           National OOH Networks: Efficiently manage extensive inventories spread across the country.<br/>
           Advertising Agencies: Plan, book, and monitor campaigns for your clients with ease.<br/>
           Large Corporations: Manage internal advertising assets and campaigns across various locations.
 
           </li>
-        </ol>
+        </ul>
       </div>
-      <div className="flex w-full flex-col px-2 justify-center items-center">
-        <h1>Why Choose PLANO?</h1>
-        <p className="mx-10">PLANO is designed to meet the diverse needs of OOH site vendors, offering a robust platform that ensures better resource utilization, improved campaign performance, and enhanced client satisfaction. Simplify your OOH media planning with PLANO and experience the future of inventory management and campaign optimization.</p>
+      <div className="flex w-full flex-col px-2 justify-center items-center my-3">
+        <h1 className="font-semibold">Why Choose PLANO?</h1>
+        <p className="mx-7 text-justify">PLANO is designed to meet the diverse needs of OOH site vendors, offering a robust platform that ensures better resource utilization, improved campaign performance, and enhanced client satisfaction. Simplify your OOH media planning with PLANO and experience the future of inventory management and campaign optimization.</p>
       </div>
       <Footer/>
     </>

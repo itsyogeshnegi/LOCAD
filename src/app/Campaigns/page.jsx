@@ -13,7 +13,7 @@ const page = () => {
         <h1>{`Campaign Measurement & Attribution`}</h1>
       </div>
       <div className="py-2 px-10">
-        <p className="text-center">
+        <p className="text-justify">
           {`At LOCAD, we provide cutting-edge AI/ML solutions for measuring and
           attributing the success of your Out-of-Home (OOH) and Programmatic
           Digital Out-of-Home (pDOOH) advertising campaigns. Our sophisticated
@@ -29,7 +29,7 @@ const page = () => {
         <h1 className="text-2xl font-bold">Key Features</h1>
       </div>
       <div>
-        <ul className="px-14">
+        <ul className="px-10 text-justify">
           <li>
             <span className="font-semibold">
               1.Advanced Tracking Technologies:{" "}
@@ -92,7 +92,7 @@ const page = () => {
       <div className="flex text-center justify-center items-center flex-col px-10">
         <h1 className="font-semibold">Why Choose Us?</h1>
       </div>
-      <div className="px-14">
+      <div className="px-14 text-justify">
         <li>
           <span className="font-semibold">Expertise:</span>
           {` Benefit from our extensive experience (10yrs+) and expertise in OOH and pDOOH advertising, ensuring your campaigns are designed and measured for success.`}

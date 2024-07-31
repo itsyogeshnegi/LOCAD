@@ -22,45 +22,59 @@ const page = () => {
 
       <div className="about-content">
         <div className="content">
-          <div className="contentHead">
-            <p>{"We are a Singapore & Delhi based Media Tech Company where we love to build innovative products and solutions for Monitoring, OOH and pDOOH advertising industry."}</p>
+          <div className="contentHead my-4">
+            <p>
+              {
+                "We are a Singapore & Delhi based Media Tech Company where we love to build innovative products and solutions for Monitoring, OOH and pDOOH advertising industry."
+              }
+              <br/>
+            </p>
           </div>
           <div className="contentBody">
             <p>
-              {`LOCAD's integrated AI platform and IoT solutions for the OOH and other industry verticals empower brands to engage with the right audiences at the optimal time, location, and context. We offer a comprehensive, one-stop solution for all your advertising, marketing and monitoring needs.`}
+              {`LOCAD's integrated AI platform and IoT solutions for the OOH and other industry verticals empower brands to engage with the right audiences at the optimal time, location, and context.`}
+            </p>
+            <p>
+              {` We offer a comprehensive, one-stop solution for all your advertising, marketing and monitoring needs.`}
             </p>
             <p>
               {`Our diverse range of products and services caters to a variety of clients, including:`}
             </p>
-              Brands:
-              <div className="text-start">
-              <li>Corporates across various industry segments</li>
-              <li>OOH Companies</li>
-              <li>Political Parties</li>
-              <li>Real Estate Firms</li>
-              <li>F&B Companies</li>
-              <li>Manufacturing Industry</li>
-              <li>Logistics</li>
-              <li>Warehousing</li>
-              <li>Insurance & Banking</li>
-              </div>
+            <b className="text-2xl font-bold">Brands</b>
+            <div className="text-start">
+              <li className="font-semibold">Corporates across various industry segments</li>
+              <li className="font-semibold">OOH Companies</li>
+              <li className="font-semibold">Political Parties</li>
+              <li className="font-semibold">Real Estate Firms</li>
+              <li className="font-semibold">F&B Companies</li>
+              <li className="font-semibold">Manufacturing Industry</li>
+              <li className="font-semibold">Logistics</li>
+              <li className="font-semibold">Warehousing</li>
+              <li className="font-semibold">Insurance & Banking</li>
+            </div>
             <br />
             <p>
-           {`LOCAD's innovative products and technology deliver unparalleled
+              {`LOCAD's innovative products and technology deliver unparalleled
               reach and scalability while maintaining brand privacy and
               integrity.`}
             </p>
             <p className="flex gap-3">
               {`Connect with us now to learn how we can add value to your campaigns and brands.`}
-              <button className="bg-blue-600 text-white p-2 rounded-md shadow-lg"><Link href={"/ContactUsPage"} className="text-white no-underline">Contact With Us</Link></button>
+              <button className="bg-blue-600 text-white p-2 rounded-md shadow-lg">
+                <Link
+                  href={"/ContactUsPage"}
+                  className="text-white no-underline">
+                  Contact With Us
+                </Link>
+              </button>
             </p>
           </div>
         </div>
       </div>
       <div className="w-full text-center mb-5">
         <p className="font-semibold text-2xl">Our Clients</p>
-      <Clients/>
-      <Clients reverse={true}/>
+        <Clients />
+        <Clients reverse={true} />
       </div>
       <div>
         <section>
@@ -76,7 +90,7 @@ const page = () => {
           </div>
         </section>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
