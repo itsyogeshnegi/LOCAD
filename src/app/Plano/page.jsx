@@ -143,56 +143,63 @@ const page = () => {
           <li className="">
             <span className="font-bold text-xl">Efficiency</span>
             <br />
-            Time-Saving Automated processes reduce the time required for
+            1.Time-Saving: Automated processes reduce the time required for
             inventory management and campaign planning.
             <br />
-            Reduced Errors: Minimize human errors with automated data entry and
+            <br />
+            2.Reduced Errors: Minimize human errors with automated data entry and
             management.
           </li>
           <br />
           <li>
             <span className="font-bold text-xl">Scalability</span>
             <br />
-            Flexible Easily scalable to manage an increasing number of sites
+            1.Flexible: Easily scalable to manage an increasing number of sites
             and campaigns.
             <br />
-            Adaptable: Suitable for small vendors with a few sites to large
+            <br />
+            2.Adaptable: Suitable for small vendors with a few sites to large
             vendors managing thousands of locations.
           </li>
           <br />
           <li>
             <span className="font-bold text-xl">Improved Decision Making</span>
             <br />
-            Data-Driven Insights: Access comprehensive data to make informed
+            1.Data-Driven Insights: Access comprehensive data to make informed
             decisions.
             <br />
-            Performance Tracking: Continuously monitor and optimize campaigns
+            <br />
+            2.Performance Tracking: Continuously monitor and optimize campaigns
             with detailed reporting.
           </li>
           <br />
           <li>
             <span className="font-bold text-xl">Enhanced Client Satisfaction</span>
             <br />
-            Transparency Clients can view available inventory and campaign
+            1.Transparency: Clients can view available inventory and campaign
             progress, improving trust and satisfaction.
             <br />
-            Responsive Service: Faster response times due to streamlined
+            <br />
+            2.Responsive Service: Faster response times due to streamlined
             processes and real-time updates.
           </li>
           <br />
           <li>
             <span className="font-bold text-xl">Use Cases</span>
             <br />
-            Local OOH Vendors Simplify the management of a few sites within a
+            1.Local OOH Vendors: Simplify the management of a few sites within a
             city or region.
             <br />
-            National OOH Networks: Efficiently manage extensive inventories
+            <br />
+            2.National OOH Networks: Efficiently manage extensive inventories
             spread across the country.
             <br />
-            Advertising Agencies: Plan, book, and monitor campaigns for your
+            <br />
+            3.Advertising Agencies: Plan, book, and monitor campaigns for your
             clients with ease.
             <br />
-            Large Corporations: Manage internal advertising assets and campaigns
+            <br />
+            4.Large Corporations: Manage internal advertising assets and campaigns
             across various locations.
           </li>
         </ul>
@@ -203,6 +210,7 @@ const page = () => {
           PLANO is designed to meet the diverse needs of OOH site vendors,
           offering a robust platform that ensures better resource utilization,
           improved campaign performance, and enhanced client satisfaction.
+          <br/>
           <br/>
           Simplify your OOH media planning with PLANO and experience the future of inventory management and campaign optimization.
         </p>
