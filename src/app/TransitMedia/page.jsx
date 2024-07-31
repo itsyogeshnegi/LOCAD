@@ -51,10 +51,10 @@ const page = () => {
       <UpperNav />
       <MainNavBar />
       <div className="p-1 flex justify-center items-center flex-col">
-        <p className="text-xl font-semibold">
+        <p className="text-xl font-bold mx-5 text-center">
           New Age Transit Advertising Platform with Tracking and Live Progress
         </p>
-        <h1>Transit Media</h1>
+        <h1 className="font-semibold">Transit Media</h1>
       </div>
       <div className="p-4 py-1">
         <p className="text-justify">
@@ -76,7 +76,7 @@ const page = () => {
         <p>Why Choose Our Transit Advertising Platform?</p>
       </div>
       <div className="flex justify-center items-center w-full">
-        <div className="flex flex-col  ">
+        <div className="flex flex-col  max-md:px-5 ">
           <li className="text-start">
             <span className="font-semibold">Innovation:</span> Stay ahead of the
             competition with our innovative tracking and monitoring technology.
@@ -114,30 +114,30 @@ const page = () => {
           <img src="/transit/bus2.jpg" className="h-56 p-4" />
         </Slider>
       </div>
-      <div className="flex flex-col text-center items-center w-full justify-center px-5 mt-5">
+      <div className="flex flex-col  items-center w-full justify-center px-5 mt-5">
         <p className="text-3xl font-bold">Key Features</p>
-        <p className="text-start">
+        <p className="text-start max-md:text-justify">
           <span className="font-semibold">1. Advanced</span> Tracking
           Capabilities: Our platform leverages state-of-the-art tracking
           technology to monitor your transit ads in real-time. Whether your
           advertisements are on buses, taxis, or trains, we provide
           comprehensive data on ad visibility and audience engagement.
         </p>
-        <p className="text-start">
+        <p className="text-start max-md:text-justify">
           <span className="font-semibold">2. Live RTO Verification:</span>
           {` With our platform you can now for the 1st
           time in India get RTO verification on the fly to ensure greater
           transparency and accountability. No way for local installers to fudge
           or duplicate pictures!!`}
         </p>
-        <p className="text-start">
+        <p className="text-start max-md:text-justify">
           <span className="font-semibold">3. Live Progress Monitoring:</span>{" "}
           Stay updated with the live progress of your campaigns. Our dashboard
           offers real-time insights into the reach and effectiveness of your
           ads, allowing you to make informed decisions and adjustments on the
           fly.
         </p>
-        <p className="text-start">
+        <p className="text-start max-md:text-justify">
           <span className="font-semibold">
             4. Detailed Analytics and Reporting:
           </span>
@@ -147,13 +147,13 @@ const page = () => {
           conversion data, helping you understand the impact of your advertising
           efforts.`}
         </p>
-        <p className="text-start">
+        <p className="text-start max-md:text-justify">
           <span className="font-semibold">5. Driver Engagement & Pay-out:</span>
           {` Platform seamlessly makes direct
           payment to drivers of the vehicles via the Driver’s app. Get real time
           visibility and on-demand proof of posting of your campaigns.`}
         </p>
-        <p className="text-start">
+        <p className="text-start max-md:text-justify">
           <span className="font-semibold">6. Customizable Campaigns:</span>
           {` Design and launch campaigns that cater to
           your specific needs and objectives. Our platform offers a variety of

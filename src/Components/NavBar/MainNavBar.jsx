@@ -39,7 +39,7 @@ const MainNavBar = () => {
       <Navbar bg="light" variant="light" expand="lg" className="px-4 xl:px-14">
         <Navbar.Brand className="col-xl-2 col-lg-2">
           <Link href="/">
-            <Image src="/LOCAD.png" height={40} width={120} alt="logo" />
+            <Image src="/LOCAD.png" height={35} width={100} alt="logo" />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />

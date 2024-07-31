@@ -148,7 +148,7 @@ const Page = () => {
             <div className="flex flex-wrap -mx-3 mb-2">
               <div className="w-full px-3">
                 <button
-                  className="bg-green-600 hover:bg-green-800 px-20 py-1 rounded-lg text-white font-Teko text-2xl"
+                  className="bg-green-600 hover:bg-green-800 px-20 py-1 rounded-lg text-white font-Teko text-2xl max-md:w-full"
                   type="submit"
                 >
                   Send Your Message
