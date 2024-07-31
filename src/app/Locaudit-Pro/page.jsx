@@ -42,9 +42,9 @@ const page = () => {
       <div className="pro_App">
         <h4 className="text-2xl font-bold">Locaudit Pro App</h4>
         <div className="proAppSS">
-          <img src="/proApp1.jpg"  />
-          <img src="/proApp.jpg" />
-          <img src="/proApp2.jpg" />
+          <img src="ProApp/one.jpg" className="max-md:h-full" />
+          <img src="ProApp/two.jpg" className="max-md:h-full"/>
+          <img src="ProApp/three.jpg" className="max-md:h-full"/>
         </div>
       </div>
       <Footer/>

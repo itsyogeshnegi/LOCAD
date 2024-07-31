@@ -83,9 +83,9 @@ const page = () => {
           />
         </div>
         <div className="h-48 w-full flex justify-around items-center max-md:h-auto max-md:flex-col max-md:gap-3">
-          <div><img src={"/locaudit/screen3.jpg"} className="h-44 max-md:h-32  shadow-lg rounded-md"/></div>
-          <div><img src={"/locaudit/screen1.jpg"} className="h-44 max-md:h-32 shadow-lg rounded-md"/></div>
-          <div><img src={"/locaudit/screen4.jpg"} className="h-44 max-md:h-32 shadow-lg rounded-md"/></div>
+          <div><img src={"/bjp/one.png"} className="h-44 max-md:h-32  shadow-lg rounded-md"/></div>
+          <div><img src={"/bjp/two.png"} className="h-44 max-md:h-32 shadow-lg rounded-md"/></div>
+          <div><img src={"/bjp/three.png"} className="h-44 max-md:h-32 shadow-lg rounded-md"/></div>
         </div>
 
         <div className="RealTimeBasedMonitoringPlatform">
