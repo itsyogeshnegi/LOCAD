@@ -34,14 +34,17 @@ const page = () => {
             <h3>About Screeno</h3>
           </div>
           <div className="screenoAboutUsText">
-            <p>
+            <p className='text-justify'>
               Its an innovative platform for both digital media owners and
               advertisers. Digital media owners can simply manage content across
               any number of screens and geographies via a single cloud based web
               interface irrespective of what hardware device they are using.
               Moreover, they can monetize their inventory by simply integrating
               with our programmatic DOOH network through the same
-              platform.Advertisers on the other hand get complete access to real
+              platform. 
+              <br/>
+              <br/>
+              Advertisers on the other hand get complete access to real
               time DOOH inventory with in depth live traffic monitoring and
               footfall numbers. The entire process from creative approval to
               purchase of DOOH inventory and scheduling of playlist across any

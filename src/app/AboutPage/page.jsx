@@ -40,9 +40,9 @@ const page = () => {
             <p>
               {`Our diverse range of products and services caters to a variety of clients, including:`}
             </p>
-            <b className="text-2xl font-bold">Brands</b>
+            <b className="text-2xl font-bold"></b>
             <div className="text-start">
-              <li className="font-semibold">Corporates across various industry segments</li>
+              <li className="font-semibold">Brands & Corporates across various industry segments</li>
               <li className="font-semibold">OOH Companies</li>
               <li className="font-semibold">Political Parties</li>
               <li className="font-semibold">Real Estate Firms</li>
